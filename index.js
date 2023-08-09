@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
 
 const io = new Server(server, {
   cors: {
-    origin: "https://extraordinary-hummingbird-8e401b.netlify.app/",
+    origin: "https://extraordinary-hummingbird-8e401b.netlify.app",
     methods: ["GET", "POST"],
   },
 });
